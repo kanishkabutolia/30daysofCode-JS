@@ -3,7 +3,7 @@
 // 2.	Store your name, age, and whether you are a student.
 // 3.	Print them using template literals.
 
-const name ="Kanishka";
+const name ="Kanishka";                                                                                                                                                                                                                   
 let age = 19;
 var Is_Student = true;
 console.log(`Name : ${name}`);
