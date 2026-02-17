@@ -8,4 +8,4 @@ let age = 19;
 var Is_Student = true;
 console.log(`Name : ${name}`);
 console.log(`Age : ${age}`);
-console.log(`Student : ${Is_Student}`);
+console.log(`Student : ${Is_Student}`);   
