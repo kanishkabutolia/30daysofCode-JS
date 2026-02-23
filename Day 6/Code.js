@@ -1,17 +1,16 @@
-// Write a function that:
-// 1.	Takes a number as input.
-// 2.	Returns the reversed digits.
+// Write a function createCounter(n) that:
+// •	Accepts an integer n.
+// •	Returns a function.
+// •	The first call returns n.
+// •	Each next call returns previous value + 1.
+// •	Maintains state using closures.
 
-function Rev_Num(x){
-    let reverse=0;
-    
-    while(x>0){
-        let digit = x%10;
-        reverse=reverse*10 +digit;
-        x=Math.floor(x/10);
+function createCounter(n){
+    return function () {
+        return n++;
     }
-    return reverse;
 }
-
-let reverse= Rev_Num(1234);
-console.log(reverse);
+let counter=createCounter(10);
+console.log(counter());
+console.log(counter());
+console.log(counter());
