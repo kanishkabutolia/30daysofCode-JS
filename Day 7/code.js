@@ -12,7 +12,7 @@
 
 
 var expect = function(val) {
-    obj={
+    let obj={
         toBe(val1){
             if (val===val1){
                 return true;
