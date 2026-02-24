@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/counter-ii">2723. Counter II</a></h2>
+<h2><a href="https://leetcode.com/problems/counter-ii">2665. Counter II</a></h2>
 <h3>Easy</h3>
 <hr>
 
